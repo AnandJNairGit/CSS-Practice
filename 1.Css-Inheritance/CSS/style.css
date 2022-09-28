@@ -13,3 +13,11 @@ div {
 #lst1 {
     color: aqua;
 }
+
+.links{
+    color:orange
+}
+
+a{
+    color: inherit;
+}
