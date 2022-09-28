@@ -21,3 +21,41 @@ div {
 a{
     color: inherit;
 }
+
+
+
+
+.container{
+    color:rgb(105, 43, 32)
+}  
+
+p{
+    text-align: center;
+    color: green
+}
+
+
+
+/* inherit the value from the parent */
+#inherit{
+    color:inherit
+}
+
+/* sets to browser default value  */
+
+#initial {
+    color:initial
+}
+
+
+/* if the element is naturally inherited acts like inherit else acts like initial */
+
+#unset {
+    color: unset
+}
+
+/* if user has defined style then revert back to it else use default browser style */
+
+#revert {
+    color: revert
+}
