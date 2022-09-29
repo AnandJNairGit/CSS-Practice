@@ -1,0 +1,15 @@
+.vport{
+    background-color: palevioletred;
+    height: 10vh;
+    width: 10vw;
+
+}
+
+/* vmim- takes the value of smaller view port
+nmax- takes the value of bigger viewport */
+.vport-min-max{
+    background: rgb(187, 43, 67);
+    height: 100px;
+    width: 50vmin;
+    /* width: 50vmax; */
+}
