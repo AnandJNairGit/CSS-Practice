@@ -33,3 +33,10 @@ nmax- takes the value of bigger viewport */
     font-size: 3em;
     margin: 2rem;
 } 
+
+
+.min-max-clamp{
+    font-size: clamp(20px, 5rem, 30px);
+    background-color: brown;
+    width: clamp(300px, 50%, 1000px);
+}
